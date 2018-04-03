@@ -274,6 +274,11 @@ p {
     margin-bottom: 0;
   }
 }
+
+span {
+  word-wrap: break-word;
+}
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
