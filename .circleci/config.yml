@@ -18,7 +18,7 @@ jobs:
 
     dependencies:
         post:
-          - sudo cp ~/mkomatinovic.github.io/resume /etc/apache2/sites-available
+          - sudo cp ~/mkomatinovic.github.io /etc/apache2/sites-available
           - sudo a2ensite mkomatinovic.github.io
           - sudo service apache2 restart
 
